@@ -730,10 +730,10 @@ Connection ~ 3900 4700
 Wire Wire Line
 	3900 4700 3750 4700
 $Comp
-L Amplifier_Operational:OPA4376 U3
+L Amplifier_Operational:OPA4376 U1
 U 5 1 5D0433E8
 P 4650 4700
-F 0 "U3" H 4608 4746 50  0000 L CNN
+F 0 "U1" H 4608 4746 50  0000 L CNN
 F 1 "OPA4234P" H 4608 4655 50  0000 L CNN
 F 2 "Package_DIP:DIP-14_W10.16mm_LongPads" H 4600 4800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa376.pdf" H 4700 4900 50  0001 C CNN
@@ -920,7 +920,6 @@ Connection ~ 850  4900
 Wire Wire Line
 	850  4900 850  5000
 NoConn ~ 9550 1850
-NoConn ~ 6850 4900
 $Comp
 L Amplifier_Operational:OPA4376 U1
 U 1 1 5D0353D8
